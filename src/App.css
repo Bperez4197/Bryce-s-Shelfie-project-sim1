@@ -83,3 +83,67 @@ input {
   padding: 20px;
 }
 
+.inventory-pic{
+  height: 200px;
+  width: 320px;
+  
+  
+}
+
+.inventory-list{
+  height: 230px;
+  width: 600px;
+  background: #D34735;
+  display: flex;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-right: 100px;
+  border-radius: 7px;
+  padding: 20px;
+  
+
+}
+
+.product-name {
+  float:right;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 20px;
+  
+}
+
+.product-price {
+  position: relative;
+}
+
+.edit-delete{
+  height:100%;
+  width: 100%;
+  display:flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-content: flex-end;
+  margin-top: 75px;
+}
+
+
+.edit {
+  height: 50px;
+  width: 100px;
+  margin-right: 50px;
+  border-radius: 5px;
+  background-color: #3AD886 ;
+  border: 0px;
+
+}
+
+.delete {
+  height: 50px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-radius: 5px;
+  background-color: #3AD886 ;
+  border: 0px;
+} 

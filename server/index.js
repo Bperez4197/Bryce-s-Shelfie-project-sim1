@@ -14,4 +14,10 @@ app.listen(port, () => console.log(`app is running on port ${port}`));
 
 massive(process.env.CONNECTION_STRING).then(db => {
     app.set('db', db);
+    console.log("connect to db");
 }).catch(err => console.log(err));
+
+app.get('/api/inventory' , controller.read);
+app.post('/api/product', controller.create);
+app.put('/api/inventory/:id' , controller.update);
+app.delete('/api/inventory/:id', controller.delete);
